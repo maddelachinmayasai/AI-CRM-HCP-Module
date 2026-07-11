@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: #2563eb;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.card h2{
+    margin-top:0;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    box-sizing:border-box;
+}
+
+.checkbox{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:18px;
+}
+
+.checkbox input{
+    width:auto;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.chat-box{
+    height:250px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    padding:10px;
+    margin-bottom:20px;
+    overflow-y:auto;
+}
